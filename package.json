@@ -1,0 +1,22 @@
+{
+	"private": true,
+	"workspaces": [
+		"example-electron-5",
+		"example-electron-6",
+		"example-electron-7",
+		"example-electron-8",
+		"library"
+	],
+	"scripts": {
+		"run-electron-5": "yarn workspace example-electron-5 build && yarn workspace example-electron-5 start",
+		"run-electron-6": "yarn workspace example-electron-6 build && yarn workspace example-electron-6 start",
+		"run-electron-7": "yarn workspace example-electron-7 build && yarn workspace example-electron-7 start",
+		"run-electron-8": "yarn workspace example-electron-8 build && yarn workspace example-electron-8 start",
+		"test": "yarn workspace react-devtools-electron test"
+	},
+	"devDependencies": {
+		"rimraf": "^3.0.2",
+		"ts-node": "^8.6.2",
+		"typescript": "^3.8.3"
+	}
+}

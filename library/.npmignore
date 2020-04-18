@@ -1,0 +1,5 @@
+src
+tsconfig.json
+check-extension-version.ts
+yarn-error.log
+.hintrc

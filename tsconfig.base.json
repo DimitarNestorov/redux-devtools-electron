@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"noImplicitAny": true,
+		"declaration": true,
+		"incremental": true,
+		"outDir": "dist",
+		"target": "es5",
+		"removeComments": true,
+		"forceConsistentCasingInFileNames": true,
+		"lib": [
+			"es2015",
+			"dom"
+		]
+	}
+}
